@@ -27,7 +27,7 @@
 	      </ul>
 	    </li>
 	    <li class="active"><a href="page.html">About</a></li>
-	    <li><a href="#">Contact</a></li>
+	    <li><a href="#contact" data-toggle="modal">Contact</a></li>
 	  </ul>
 	</div>
       </div>
@@ -94,23 +94,43 @@
       </div>
     </div>
 
-    <div class="modal fade" id="popup" role="dialog">
+    <div class="modal fade" id="contact" role="dialog">
       <div class="modal-dialog">
 	<div class="modal-content">
-	  <div class="modal-header">
-	    <h4>Modals are cool!</h4>
-	  </div>
-	  <div class="modal-body">
-	    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu eleifend magna. Quisque placerat velit et diam ullamcorper egestas. Suspendisse mollis massa eu purus euismod vehicula. In dictum pharetra erat id pretium. Aliquam pretium metus a scelerisque aliquam. Quisque ac lectus mi. Sed adipiscing sapien ac dapibus pharetra. Suspendisse non quam vel sem aliquet bibendum vitae id urna. Donec id ante iaculis, cursus tellus vel, gravida nulla. Praesent ultrices, dui sed lacinia luctus, tellus purus pulvinar ligula, in feugiat justo felis at enim. Sed euismod, ante in congue vehicula, justo nisl placerat purus, quis facilisis dui dui ut felis.</p>
-	  </div>
-	  <div class="modal-footer">
-	    <a class="btn btn-default" data-dismiss="modal">Close</a>
-	  </div>
+	  <form class="form-horizontal">
+	    <div class="modal-header">
+	      <h4>Modals are cool!</h4>
+	    </div>
+	    <div class="modal-body">
+	      <div class="form-group">
+		<label for="contact-name" class="col-lg-2 control-label">Name:</label>
+		<div class="col-lg-10">
+		  <input type="text" class="form-control" id="contact-name" placeholder="Full name">
+		</div>
+	      </div>
+	      <div class="form-group">
+		<label for="contact-email" class="col-lg-2 control-label">Email:</label>
+		<div class="col-lg-10">
+		  <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+		</div>
+	      </div>
+	      <div class="form-group">
+		<label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+		<div class="col-lg-10">
+		  <textarea class="form-control" id="contact-msg" rows="8"></textarea>
+		</div>
+	      </div>
+	    </div>
+	    <div class="modal-footer">
+	      <a class="btn btn-default" data-dismiss="modal">Close</a>
+	      <input class="btn btn-primary" type="submit" value="Submit">
+	    </div>
+	  </form>
 	</div>
       </div>
     </div>
 
     <script src="js/jquery-2.1.0.js"></script>
-    <script src="/js/bootstrap.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
