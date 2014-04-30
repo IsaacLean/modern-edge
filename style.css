@@ -8,3 +8,11 @@ Author URI: http://isaaclean.com
 */
 
 @import url("css/bootstrap.min.css");
+
+body{padding-top: 70px;}
+
+.page-header{margin-top: 0;}
+
+.panel-body{
+    padding-top: 0;
+}
