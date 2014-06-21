@@ -1,0 +1,28 @@
+{
+  "name": "modern-edge",
+  "version": "0.0.0",
+  "description": "A WordPress theme with a modern, sleek, edgy feel!",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IsaacLean/edge.git"
+  },
+  "keywords": [
+    "wordpress",
+    "bootstrap",
+    "html",
+    "css"
+  ],
+  "author": "Matthew Isaac Lean",
+  "bugs": {
+    "url": "https://github.com/IsaacLean/edge/issues"
+  },
+  "homepage": "https://github.com/IsaacLean/edge"
+}

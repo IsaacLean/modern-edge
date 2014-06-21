@@ -1,13 +1,11 @@
 /*
-Theme Name: Sleek Edge
+Theme Name: Modern Edge
 Theme URI: http://isaaclean.com
 Description: A WordPress theme with a modern, sleek, edgy feel!
-Version: 0.1
+Version: 0.0.0
 Author: Matthew Isaac Lean
 Author URI: http://isaaclean.com
 */
-
-@import url("css/bootstrap.min.css");
 
 body{padding-top: 70px;}
 

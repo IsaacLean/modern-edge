@@ -1,0 +1,23 @@
+{
+  "name": "modern-edge",
+  "version": "0.0.0",
+  "homepage": "http://isaaclean.com",
+  "authors": [
+    "Matthew Isaac Lean"
+  ],
+  "description": "A WordPress theme with a modern, sleek, edgy feel!",
+  "main": "index.html",
+  "keywords": [
+    "wordpress",
+    "bootstrap",
+    "html",
+    "css"
+  ],
+  "ignore": [
+    "**/.*",
+    "components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
