@@ -9,8 +9,16 @@ Author URI: http://isaaclean.com
 
 body{padding-top: 70px;}
 
-.page-header{margin-top: 0;}
+.showcase-item-large{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
 
-.panel-body{
-    padding-top: 0;
+.showcase-item-small{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
 }

@@ -4,107 +4,44 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Site Name</title>
+        <title>Modern Edge</title>
         <link href="/components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
         <link href="/style.css" rel="stylesheet">
     </head>
-  <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-	<a href="/" class="navbar-brand">Site Name</a>
-	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-	  <span class="icon-bar"></span>
-	  <span class="icon-bar"></span>
-	  <span class="icon-bar"></span>
-	</button>
-	<div class="collapse navbar-collapse navHeaderCollapse">
-	  <ul class="nav navbar-nav navbar-right">
-	    <li class="active"><a href="/">Blog</a></li>
-	    <li class="dropdown">
-	      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Showcase <b class="caret"></b></a>
-	      <ul class="dropdown-menu">
-		<li><a href="page.html">Portfolio</a></li>
-		<li><a href="page.html">Resume</a></li>
-	      </ul>
-	    </li>
-	    <li><a href="page.html">About</a></li>
-	    <li><a href="#contact" data-toggle="modal">Contact</a></li>
-	  </ul>
-	</div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="jumbotron text-center">
-	<h1>Hello world!</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus ante, vehicula eu sem ut, suscipit fermentum urna. Etiam posuere mi a mauris dignissim, ut malesuada nulla sollicitudin. Aliquam sed felis ac ante mattis vulputate in at elit.</p>
-	<a href="#contact" data-toggle="modal" class="btn btn-primary">Send us a message!</a>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-	<div class="col-md-4">
-	  <h3><a href="#">Title 1</a></h3>
-	  <p>Curabitur volutpat, nisi id gravida dictum, augue neque eleifend enim, vitae egestas elit odio in orci. Duis molestie justo ut lorem blandit, sed fermentum lectus tincidunt. Proin vel justo non enim adipiscing venenatis sit amet id est. Duis dignissim ligula diam, vitae hendrerit nulla mattis sed. Quisque lobortis molestie eros, at lobortis quam volutpat id.</p>
-	  <a href="#" class="btn btn-default">Read More</a>
-	</div>
-	<div class="col-md-4">
-	  <h3><a href="#">Title 2</a></h3>
-	  <p>Morbi interdum, purus non ornare cursus, tortor justo volutpat nisl, eget tincidunt risus urna at est. Cras porttitor leo et ultricies elementum. Vestibulum fringilla libero id sollicitudin feugiat. Nulla lobortis condimentum erat et congue. Ut quis leo vitae nibh dignissim gravida. Fusce pharetra purus a mollis volutpat.</p>
-	  <a href="#" class="btn btn-default">Read More</a>
-	</div>
-	<div class="col-md-4">
-	  <h3><a href="#">Title 3</a></h3>
-	  <p>Suspendisse eu turpis sapien. In at dapibus urna. Donec ut pulvinar nisl, egestas molestie erat. Maecenas convallis, nisl vehicula sodales eleifend, magna mi sagittis urna, vitae vulputate lectus lectus eu mi. Donec quam felis, tristique a feugiat a, malesuada nec mi. Cras rutrum tortor ut hendrerit mollis. Integer tincidunt tincidunt suscipit. Suspendisse venenatis placerat magna. Nulla feugiat magna quis orci iaculis adipiscing. Curabitur facilisis volutpat arcu eget commodo. Etiam ligula purus, auctor eu mauris at, tristique congue nibh.</p>
-	  <a href="#" class="btn btn-default">Read More</a>
-	</div>
-      </div>
-    </div>
-
-    <div class="navbar navbar-default">
-      <div class="container">
-	<p class="navbar-text pull-left">&copy; 2014 all rights reserved</p>
-	<a href="http://twitter.com/isaaclean" class="navbar-btn btn btn-info pull-right">Twitter</a>
-      </div>
-    </div>
-
-    <div class="modal fade" id="contact" role="dialog">
-      <div class="modal-dialog">
-	<div class="modal-content">
-	  <form class="form-horizontal">
-	    <div class="modal-header">
-	      <h4>Modals are cool!</h4>
-	    </div>
-	    <div class="modal-body">
-	      <div class="form-group">
-		<label for="contact-name" class="col-lg-2 control-label">Name:</label>
-		<div class="col-lg-10">
-		  <input type="text" class="form-control" id="contact-name" placeholder="Full name">
-		</div>
-	      </div>
-	      <div class="form-group">
-		<label for="contact-email" class="col-lg-2 control-label">Email:</label>
-		<div class="col-lg-10">
-		  <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
-		</div>
-	      </div>
-	      <div class="form-group">
-		<label for="contact-msg" class="col-lg-2 control-label">Message:</label>
-		<div class="col-lg-10">
-		  <textarea class="form-control" id="contact-msg" rows="8"></textarea>
-		</div>
-	      </div>
-	    </div>
-	    <div class="modal-footer">
-	      <a class="btn btn-default" data-dismiss="modal">Close</a>
-	      <input class="btn btn-primary" type="submit" value="Submit">
-	    </div>
-	  </form>
-	</div>
-      </div>
-    </div>
-
-    <script src="/components/jquery/dist/jquery.js"></script>
-    <script src="/components/bootstrap/dist/js/bootstrap.js"></script>
-  </body>
+    <body role="document">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/" class="navbar-brand">Site Name</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="/">Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container" role="main">
+            <div class="showcase-item-large"></div>
+            <div class="showcase-item-small"></div>
+            <div class="showcase-item-small"></div>
+            <div class="showcase-item-small"></div>
+            <div class="showcase-item-small"></div>
+            <div class="showcase-item-small"></div>
+            <div class="showcase-item-small"></div>
+            <div class="showcase-item-small"></div>
+        </div>
+        <script src="/components/jquery/dist/jquery.js"></script>
+        <script src="/components/bootstrap/dist/js/bootstrap.js"></script>
+    </body>
 </html>

@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/IsaacLean/edge/issues"
   },
-  "homepage": "https://github.com/IsaacLean/edge"
+  "homepage": "https://github.com/IsaacLean/edge",
+  "scripts": {
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server -p 8000"
+  }
 }
