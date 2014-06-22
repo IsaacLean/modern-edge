@@ -7,18 +7,30 @@ Author: Matthew Isaac Lean
 Author URI: http://isaaclean.com
 */
 
-body{padding-top: 70px;}
+body { padding-top: 70px; }
 
-.showcase-item-large{
-    display: inline-block;
-    width: 200px;
-    height: 200px;
+.item {
+    float: left;
+    margin: 2px;
+    width: 186px;
+    height: 186px;
+    background-color: grey;
+}
+
+.featured {
+    width: 376px;
+    height: 376px;
     background-color: blue;
 }
 
-.showcase-item-small{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+.red {
     background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
 }
