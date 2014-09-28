@@ -2,9 +2,9 @@
   "name": "edge",
   "version": "0.0.1",
   "description": "A WordPress theme with a modern, sleek, edgy feel!",
-  "main": "index.html",
+  "main": "modern-edge/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server ./modern-edge -p 8000"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "homepage": "https://github.com/IsaacLean/edge",
   "dependencies": {
     "bower": "^1.3.11"
+  },
+  "devDependencies": {
+    "http-server": "^0.7.1"
   }
 }
