@@ -1,0 +1,13 @@
+{
+  "name": "modern-edge",
+  "version": "0.0.0",
+  "homepage": "https://github.com/IsaacLean/modern-edge",
+  "authors": [
+    "Matthew Isaac Lean <isaaclean@creatibyte.com>"
+  ],
+  "description": "Theme for MattLean.com and XuehuaCMS.",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
