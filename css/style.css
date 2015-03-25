@@ -1,0 +1,54 @@
+/* GENERAL ELEMENTS */
+body {
+	color: #000;
+	font-family: 'Arimo', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* SPECIAL SELECTORS */
+@media (min-width: 568px) {
+	.container {
+	    width: 550px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+	    width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+ul.nav_links {
+	float: right;
+	margin-top: 15px;
+}
+
+ul.nav_links li {
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 50px;
+}
+
+ul.nav_links li:last-child {
+	margin-right: 25px;
+}
+
+#bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
