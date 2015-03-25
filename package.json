@@ -1,0 +1,21 @@
+{
+  "name": "modern-edge",
+  "version": "0.0.0",
+  "description": "Theme for MattLean.com and XuehuaCMS.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IsaacLean/modern-edge.git"
+  },
+  "author": "Matthew Isaac Lean",
+  "bugs": {
+    "url": "https://github.com/IsaacLean/modern-edge/issues"
+  },
+  "homepage": "https://github.com/IsaacLean/modern-edge",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  }
+}

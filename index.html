@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Modern Edge</title>
+</head>
+<body>
+	<script src="bower_components/Processing.js/processing.js"></script>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/processing" data-processing-target="mycanvas">
+	void setup() {
+		size($(window).width(), $(window).height());
+		background(125);
+	  	fill(255);
+	  	PFont fontA = loadFont("courier");
+	  	textFont(fontA, 14);
+	}
+
+	void draw() {
+	  	text("Hello Web!",20,20);
+	}
+	</script>
+	<script>
+	$(function() {
+		$(document).on("mousemove", function(event) {
+  			//console.log(event.pageX);
+  			//console.log(event.pageY);
+		});
+
+		$(document).click(function() {
+			$('canvas').width($(window).width());
+		});
+
+		$('#mycanvas').click(function() {
+			console.log('eeeyyyy');
+		});
+	});
+	</script>
+	<style>
+	canvas {
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:-1;
+	}
+	</style>
+	<canvas id="mycanvas"></canvas>
+	<p>hello world</p>
+</body>
+</html>
