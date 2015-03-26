@@ -85,13 +85,13 @@ void changeColor() {
 	bgColor2 = 152;
 	bgColor3 = 219;
 
-	strokeColor1 = 100;
-	strokeColor2 = 100;
-	strokeColor3 = 100;
+	strokeColor1 = 200;
+	strokeColor2 = 200;
+	strokeColor3 = 200;
 
-	nodeColor1 = 90;
-	nodeColor2 = 90;
-	nodeColor3 = 90;
+	nodeColor1 = 190;
+	nodeColor2 = 190;
+	nodeColor3 = 190;
 
 	/*strokeColor1 = 178;
 	strokeColor2 = 217;

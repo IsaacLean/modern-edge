@@ -15,5 +15,7 @@ $(function() {
 		processingInstance = Processing.getInstanceById('bg');
 		console.log('test');
 		console.log(processingInstance.changeColor());
+		//$('.test').fadeOut(3000);
+		$('.test').addClass('hidden');
 	});
 });
