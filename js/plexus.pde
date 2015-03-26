@@ -1,4 +1,4 @@
-Particle[] p = new Particle[300];
+Particle[] p = new Particle[250];
 float spring = 0.0000001;
 float xt = 0, yt = 1000;
 float inc = 0.002;

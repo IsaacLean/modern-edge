@@ -5,7 +5,14 @@ body {
 }
 
 h1 {
+	font-size: 2em;
 	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2em;
+	text-transform: uppercase;
 }
 
 a {
@@ -13,27 +20,40 @@ a {
 }
 
 /* SPECIAL SELECTORS */
-@media (min-width: 568px) {
-	.container {
-	    width: 550px;
-	}
+.container {
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  	.container {
+   		width: 750px;
+  	}
 }
 
 @media (min-width: 992px) {
-	.container {
-	    width: 970px;
+  	.container {
+    	width: 970px;
 	}
 }
 
 @media (min-width: 1200px) {
-	.container {
-		width: 1170px;
-	}
+  	.container {
+    	width: 1170px;
+  	}
+}
+
+header#topbar {
+	padding: 15px 25px;
+}
+
+h1#logo {
+	float: left;
+	font-size: 2em;
 }
 
 ul.nav_links {
 	float: right;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 ul.nav_links li {
@@ -43,7 +63,61 @@ ul.nav_links li {
 }
 
 ul.nav_links li:last-child {
-	margin-right: 25px;
+	margin-right: 0;
+}
+
+section#content {
+	padding: 15px 25px;
+	margin-top: 30px;
+}
+
+h1.gridtitle {
+	clear: both;
+}
+
+div.grid a {
+	float: left;
+	margin: 10px;
+}
+
+div.grid a:first-child {
+	margin-left: 0;
+}
+
+div.grid a:last-child {
+	margin-right: 0;
+}
+
+div.grid div {
+	background-color: blue;
+}
+
+@media (max-width: 767px) {
+  	div.grid div {
+	    width: 100px;
+	    height: 100px;
+	}
+}
+
+@media (min-width: 768px) {
+  	div.grid div {
+	    width: 100px;
+	    height: 100px;
+	}
+}
+
+@media (min-width: 992px) {
+  	div.grid div {
+	    width: 100px;
+	    height: 100px;
+	}
+}
+
+@media (min-width: 1200px) {
+  	div.grid div {
+		width: 276px;
+		height: 276px;
+	}
 }
 
 #bg {
