@@ -78,6 +78,7 @@ h1.gridtitle {
 div.grid a {
 	float: left;
 	margin-right: 10px;
+	background-color: blue;
 }
 
 div.grid a:last-child {
@@ -88,7 +89,7 @@ div.grid div {
 	background-color: blue;
 }
 
-.test {
+div.grid a.test {
 	width: 276px;
 	height: 276px;
 	-webkit-transition: all 3s linear;
@@ -96,10 +97,9 @@ div.grid div {
     -o-transition: all 3s linear;
     -ms-transition: all 3s linear;
     transition: all 3s linear;
-
 }
 
-.hidden {
+div.grid a.hidden {
 	width: 0;
     padding: 0;
     margin-right: 0;
@@ -109,6 +109,7 @@ div.grid div {
     -o-transition: all 3s linear;
     -ms-transition: all 3s linear;
     transition: all 3s linear;
+    margin-right: 0;
 }
 
 /*@media (max-width: 767px) {
